@@ -116,12 +116,5 @@ namespace _26_5
             }
         }
 
-        
-
-        public static void Main()
-        {
-            RunMenu();
-
-        }
     }
 }
