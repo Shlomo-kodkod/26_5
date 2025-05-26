@@ -94,9 +94,6 @@ namespace _26_5
 
         public static async Task Main()
         {
-
-            Post newPost = BuildNewPost();
-            await AddNewPost(newPost);
             var posts = await GetPosts();
             GetPostByID(posts);
 
